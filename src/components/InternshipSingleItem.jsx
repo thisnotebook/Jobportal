@@ -66,7 +66,7 @@
                             </div>
                         </div>
                         <div>
-                            <div className="py-3 px-10 bg-[#EBE9FE] text-[#6938EF] font-bold text-lg rounded-bl-full">
+                            <div className="py-3 px-10 bg-[#EBE9FE] text-[#186F65] font-bold text-lg rounded-bl-full">
                                 {internship.category}
                             </div>
 
@@ -75,7 +75,7 @@
                     <div className="w-5/6 px-8 py-3 flex">
                         <div className="w-1/4 border-r-2 border-[#D0D5DD] flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faHourglassStart} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faHourglassStart} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{internship.duration} Month</div>
@@ -84,7 +84,7 @@
                         </div>
                         <div className="w-1/4 border-r-2 border-[#D0D5DD] flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faStar} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faStar} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{internship.experience}</div>
@@ -93,7 +93,7 @@
                         </div>
                         <div className="w-1/4 border-r-2 border-[#D0D5DD] flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faWallet} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faWallet} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">
@@ -104,7 +104,7 @@
                         </div>
                         <div className="w-1/4 flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faLocationDot} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faLocationDot} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{internship.location}</div>
@@ -116,7 +116,7 @@
                     <div className="w-5/6 px-8 py-3 flex ">
                         <div className="w-1/4 border-r-2 border-[#D0D5DD] flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faCalendarDays} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faCalendarDays} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{diffInConsumedDays} Days Ago</div>
@@ -125,7 +125,7 @@
                         </div>
                         <div className="w-1/4 border-r-2 border-[#D0D5DD] flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faCalendarXmark} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faCalendarXmark} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{diffInLeftDays} Days</div>
@@ -134,7 +134,7 @@
                         </div>
                         <div className="w-1/4 border-r-2 border-[#D0D5DD] flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faUser} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faUser} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{internship.openPositions}</div>
@@ -143,7 +143,7 @@
                         </div>
                         <div className="w-1/4 flex px-2 items-center">
                             <div className="pr-4">
-                                <FontAwesomeIcon icon={faUsers} style={{color: "#6938EF"}}/>
+                                <FontAwesomeIcon icon={faUsers} style={{color: "#186F65"}}/>
                             </div>
                             <div className="text-xs">
                                 <div className="font-semibold">{internship.applicants}</div>
@@ -178,12 +178,12 @@
                     </div>
                     <div className="flex justify-between px-8 py-8 items-center">
                         <div>
-                            <a target="_blank" rel="noopener noreferrer" className="cursor-pointer text-[#6938EF] font-semibold">
+                            <a target="_blank" rel="noopener noreferrer" className="cursor-pointer text-[#186F65] font-semibold">
                                 Visit Website
                             </a>
                         </div>
                         <div>
-                            <button className="py-2 px-4 bg-[#6938EF] rounded-full text-[#FFFFFF] font-bold text-xl">Apply Now</button>
+                            <button className="py-2 px-4 bg-[#186F65] rounded-full text-[#FFFFFF] font-bold text-xl">Apply Now</button>
                         </div>
                     </div>
                 </div>

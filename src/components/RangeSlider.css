@@ -2,13 +2,13 @@
 
 /* Customize the color of the track */
 .custom-slider .rc-slider-track {
-    background-color: #6938EF;
+    background-color: #186F65;
 }
 
 /* Customize the color of the handle */
 .custom-slider .rc-slider-handle {
-    background-color: #6938EF;
-    border-color: #6938EF;
+    background-color: #186F65;
+    border-color: #186F65;
 }
 
 .custom-slider .rc-slider-handle:focus,
@@ -27,6 +27,6 @@
 }
 
 .custom-slider .rc-slider-mark-dot {
-    background-color: #6938EF; /* Mark dot color */
-    border-color: #6938EF; /* Mark dot border color */
+    background-color: #186F65; /* Mark dot color */
+    border-color: #186F65; /* Mark dot border color */
 }

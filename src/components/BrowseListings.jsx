@@ -33,7 +33,7 @@ const DropdownMenu = ({ title, options, onSelect }) => {
           {selectedItems?.map((item) => (
             <div
               key={item}
-              className="px-2 py-2 mx-1 bg-[#EBE9FE] text-[#6938EF] text-xs border rounded-md flex"
+              className="px-2 py-2 mx-1 bg-[#EBE9FE] text-[#186F65] text-xs border rounded-md flex"
             >
               <div
                 className="px-1"
@@ -56,7 +56,7 @@ const DropdownMenu = ({ title, options, onSelect }) => {
         <FontAwesomeIcon
           icon={faCaretDown}
           style={{
-            color: "#6938EF",
+            color: "#186F65",
             marginRight: "1em",
             height: "1em",
             width: "1em",
@@ -388,11 +388,11 @@ export default function BrowseListings() {
           <div className="flex justify-between bg-[#FFFFFF] items-center h-12 px-1 mb-6 rounded-md">
             <button
               className={`rounded-md text-base w-1/3 py-2 font-medium ${
-                activeTab === "popular" ? "text-[#FFFFFF]" : "text-[#9B8AFB]"
+                activeTab === "popular" ? "text-[#FFFFFF]" : "text-[#186F65]"
               }
                             ${
                               activeTab === "popular"
-                                ? "bg-[#6938EF]"
+                                ? "bg-[#186F65]"
                                 : "bg-[#FFFFFF]"
                             }`}
               onClick={() => handleTabClick("popular")}
@@ -401,11 +401,11 @@ export default function BrowseListings() {
             </button>
             <button
               className={`text-base rounded-md w-1/3 py-2 font-medium ${
-                activeTab === "newest" ? "text-[#FFFFFF]" : "text-[#9B8AFB]"
+                activeTab === "newest" ? "text-[#FFFFFF]" : "text-[#186F65]"
               }
                             ${
                               activeTab === "newest"
-                                ? "bg-[#6938EF]"
+                                ? "bg-[#186F65]"
                                 : "bg-[#FFFFFF]"
                             }`}
               onClick={() => handleTabClick("newest")}
@@ -414,11 +414,11 @@ export default function BrowseListings() {
             </button>
             <button
               className={`text-base rounded-md w-1/3 py-2 font-medium ${
-                activeTab === "bookmark" ? "text-[#FFFFFF]" : "text-[#9B8AFB]"
+                activeTab === "bookmark" ? "text-[#FFFFFF]" : "text-[#186F65]"
               }
                             ${
                               activeTab === "bookmark"
-                                ? "bg-[#6938EF]"
+                                ? "bg-[#186F65]"
                                 : "bg-[#FFFFFF]"
                             }`}
               onClick={() => handleTabClick("bookmark")}
@@ -457,7 +457,7 @@ export default function BrowseListings() {
                 placeholder="Search"
               />
             </div>
-            <div className="w-1/12 h-12 flex justify-center items-center bg-[#6938EF] rounded-r-md">
+            <div className="w-1/12 h-12 flex justify-center items-center bg-[#186F65] rounded-r-md">
               <FontAwesomeIcon
                 icon={faSearch}
                 style={{ color: "#FFFFFF", height: 20, width: 20 }}
@@ -469,7 +469,7 @@ export default function BrowseListings() {
             >
               <FontAwesomeIcon
                 icon={faFilter}
-                style={{ color: "#6938EF", height: 20, width: 20 }}
+                style={{ color: "#186F65", height: 20, width: 20 }}
               />
             </div>
           </div>
@@ -488,11 +488,11 @@ export default function BrowseListings() {
       {showFilterBox && (
         <div className="fixed top-40 left-2/3 w-1/3 bg-white border rounded-tl-3xl z-50">
           <div className="p-4 flex">
-            <div className="mx-auto text-[#6938EF] font-bold">Filters</div>
+            <div className="mx-auto text-[#186F65] font-bold">Filters</div>
             <div onClick={handleFilterClick} className="cursor-pointer">
               <FontAwesomeIcon
                 icon={faSquareXmark}
-                style={{ color: "#6938EF", height: 20, width: 20 }}
+                style={{ color: "#186F65", height: 20, width: 20 }}
               />
             </div>
           </div>
@@ -545,11 +545,11 @@ export default function BrowseListings() {
                     type="checkbox"
                     id="scales1"
                     name="scales1"
-                    className="accent-[#6938EF]"
+                    className="accent-[#186F65]"
                   />
                   <label
                     htmlFor="scales1"
-                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#6938EF] text-xs font-bold rounded-md"
+                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#186F65] text-xs font-bold rounded-md"
                   >
                     Part Time
                   </label>
@@ -577,11 +577,11 @@ export default function BrowseListings() {
                     type="checkbox"
                     id="scales2"
                     name="scales2"
-                    className="accent-[#6938EF]"
+                    className="accent-[#186F65]"
                   />
                   <label
                     htmlFor="scales2"
-                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#6938EF] text-xs font-bold rounded-md"
+                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#186F65] text-xs font-bold rounded-md"
                   >
                     Full Time
                   </label>
@@ -614,11 +614,11 @@ export default function BrowseListings() {
                     type="checkbox"
                     id="scales3"
                     name="scales3"
-                    className="accent-[#6938EF] pr-2"
+                    className="accent-[#186F65] pr-2"
                   />
                   <label
                     htmlFor="scales3"
-                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#6938EF] text-xs font-bold rounded-md"
+                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#186F65] text-xs font-bold rounded-md"
                   >
                     Work from Home
                   </label>
@@ -644,11 +644,11 @@ export default function BrowseListings() {
                     type="checkbox"
                     id="scales4"
                     name="scales4"
-                    className="accent-[#6938EF]  pr-2"
+                    className="accent-[#186F65]  pr-2"
                   />
                   <label
                     htmlFor="scales4"
-                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#6938EF] text-xs font-bold rounded-md"
+                    className="ml-2 px-4 py-1 border bg-[#EBE9FE] text-[#186F65] text-xs font-bold rounded-md"
                   >
                     In Office
                   </label>
@@ -719,7 +719,7 @@ export default function BrowseListings() {
             <div className="mr-4 cursor-pointer">
               <div
                 onClick={clearAllFilters}
-                className="text-xs py-2 px-4 rounded text-[#6938EF] font-bold"
+                className="text-xs py-2 px-4 rounded text-[#186F65] font-bold"
               >
                 Clear All
               </div>
@@ -727,7 +727,7 @@ export default function BrowseListings() {
             <div>
               <button
                 onClick={handleApply}
-                className="bg-[#6938EF] text-white text-xs font-bold py-2 px-8 rounded"
+                className="bg-[#186F65] text-white text-xs font-bold py-2 px-8 rounded"
               >
                 Apply
               </button>

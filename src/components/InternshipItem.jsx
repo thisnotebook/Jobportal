@@ -66,7 +66,7 @@ return (
                         }`}
                         onClick={handleBookmarkClick}
                     >
-                        <FontAwesomeIcon icon={faBookmark} style={{height: 20, width: 20, color: `${isBookmarked ? "#6938EF" : "#EBE9FE"}`}}/>
+                        <FontAwesomeIcon icon={faBookmark} style={{height: 20, width: 20, color: `${isBookmarked ? "#186F65" : "#EBE9FE"}`}}/>
                     </div>
                 </div>
                 <div className="flex py-2 px-2 text-sm items-center overflow-hidden">
@@ -93,7 +93,7 @@ return (
                 <div className="flex py-2 px-2 text-sm items-center">
                     <div className="w-1/2 flex">
                         <div className="w-1/6 pr-2">
-                            <FontAwesomeIcon icon={faHourglassStart} style={{color: "#6938EF"}}/>
+                            <FontAwesomeIcon icon={faHourglassStart} style={{color: "#186F65"}}/>
                         </div>
                         <div>
                             {internship.duration} Month
@@ -101,7 +101,7 @@ return (
                     </div>
                     <div className="w-1/2 flex">
                         <div className="w-1/6 pr-2">
-                            <FontAwesomeIcon icon={faWallet} style={{color: "#6938EF"}}/>
+                            <FontAwesomeIcon icon={faWallet} style={{color: "#186F65"}}/>
                         </div>
                         <div>
                             {internship.stipend.isPaid ? `₹${internship.stipend.lowerBound} - ₹${internship.stipend.upperBound}` : "Unpaid"}
@@ -111,7 +111,7 @@ return (
                 <div className="flex py-2 px-2 text-sm items-center">
                     <div className="w-1/2 flex">
                         <div className="w-1/6 pr-2">
-                            <FontAwesomeIcon icon={faUsers} style={{color: "#6938EF"}}/>
+                            <FontAwesomeIcon icon={faUsers} style={{color: "#186F65"}}/>
                         </div>
                         <div>
                             {internship.applicants} Applicants
@@ -120,7 +120,7 @@ return (
                     </div>
                     <div className="w-1/2 flex">
                         <div className="w-1/6 pr-2">
-                            <FontAwesomeIcon icon={faCalendarXmark} style={{color: "#6938EF"}}/>
+                            <FontAwesomeIcon icon={faCalendarXmark} style={{color: "#186F65"}}/>
                         </div>
                         <div>
                             {diffInDays} Days
