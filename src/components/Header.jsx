@@ -31,7 +31,7 @@ export default function Header() {
   return (
     <>
     <div className="flex justify-between h-16 items-center bg-[#FFFFFF]">
-         <div className="self-center px-20 text-2xl text-[#030303] font-bold">DummyPortal</div>
+         <div className="self-center px-20 text-2xl text-[#030303] font-bold">Jobstern</div>
          <div className="flex self-center text-[#667085] font-bold">
                     <button
                         className={`flex ${activeButton === "browseListings" ? "text-[#186F65]" : ""}`}
