@@ -1,0 +1,267 @@
+{
+  "jobs": [
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1000,
+        "upperBound": 4000
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d468",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Software Developer Intern",
+      "category": "Software",
+      "duration": "1",
+      "experience": "Internmediate",
+      "location": "Noida",
+      "posted": "2023-06-10",
+      "endsIn": "2023-07-10",
+      "openPositions": "5",
+      "applicants": 6,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "ReactJs",
+        "AngularJs"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:45:58.003Z",
+      "updatedAt": "2023-06-25T11:38:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 5000,
+        "upperBound": 9000
+      },
+      "_id": "6497e355ad2b4c77e9c3d46a",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Marketing Intern",
+      "category": "Marketing",
+      "duration": "2",
+      "experience": "Internmediate",
+      "location": "Remote",
+      "posted": "2023-06-11",
+      "endsIn": "2023-07-11",
+      "openPositions": "6",
+      "applicants": 20,
+      "isFullTime": true,
+      "isInOffice": false,
+      "isBookmarked": true,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "NodeJs",
+        "ExpressJs",
+        "ReactJs",
+        "MongoDB"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:48:53.246Z",
+      "updatedAt": "2023-06-25T15:33:03.403Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 10000,
+        "upperBound": 19000
+      },
+      "_id": "6497e3d1ad2b4c77e9c3d46c",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Sales Intern",
+      "category": "Sales",
+      "duration": "3",
+      "experience": "Internmediate",
+      "location": "Remote",
+      "posted": "2023-06-09",
+      "endsIn": "2023-07-09",
+      "openPositions": "7",
+      "applicants": 40,
+      "isFullTime": true,
+      "isInOffice": false,
+      "isBookmarked": true,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "NodeJs",
+        "ExpressJs",
+        "ReactJs",
+        "MongoDB",
+        "Vue",
+        "Tailwind"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:50:57.788Z",
+      "updatedAt": "2023-07-19T09:49:15.797Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 20000,
+        "upperBound": 30000
+      },
+      "_id": "6497e4b1ad2b4c77e9c3d46e",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "HR Intern",
+      "category": "HR",
+      "duration": "4",
+      "experience": "Internmediate",
+      "location": "Mumbai",
+      "posted": "2023-06-08",
+      "endsIn": "2023-07-08",
+      "openPositions": "8",
+      "applicants": 90,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "Python",
+        "Django",
+        "ReactJs",
+        "MongoDB",
+        "Tailwind"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:54:41.928Z",
+      "updatedAt": "2023-10-25T11:37:39.081Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 30000,
+        "upperBound": 39000
+      },
+      "_id": "6497e53aad2b4c77e9c3d470",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Graphic Designer Intern",
+      "category": "Graphic Design",
+      "duration": "5",
+      "experience": "Internmediate",
+      "location": "Remote",
+      "posted": "2023-06-07",
+      "endsIn": "2023-07-07",
+      "openPositions": "8",
+      "applicants": 200,
+      "isFullTime": false,
+      "isInOffice": false,
+      "isBookmarked": true,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "Photoshop",
+        "After Effects",
+        "Canva"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:56:58.310Z",
+      "updatedAt": "2023-10-03T16:57:30.834Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 40000,
+        "upperBound": 50000
+      },
+      "_id": "6497e595ad2b4c77e9c3d472",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Software Developer Intern",
+      "category": "Software",
+      "duration": "6",
+      "experience": "Internmediate",
+      "location": "Pune",
+      "posted": "2023-06-06",
+      "endsIn": "2023-07-06",
+      "openPositions": "9",
+      "applicants": 350,
+      "isFullTime": true,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:58:29.548Z",
+      "updatedAt": "2023-08-02T16:52:30.471Z",
+      "__v": 0
+    }
+  ]
+}

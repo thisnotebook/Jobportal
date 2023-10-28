@@ -1,0 +1,642 @@
+{
+  "jobs": [
+
+
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1400,
+        "upperBound": 3600
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d468",
+      "company": "Microsoft India",
+      "title": "Cybersecurity Intern",
+      "category": "Security",
+      "duration": "6",
+      "experience": "Intermediate",
+      "location": "Noida",
+      "posted": "2023-09-20",
+      "endsIn": "2023-10-20",
+      "openPositions": "4",
+      "applicants": 7,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://shorturl.at/mGL13",
+      "skills": [
+        "Cybersecurity",
+        "SecurityAnalysis"
+      ],
+      "aboutUs": "Microsoft is a multinational technology company that produces, licenses, and sells computer software, consumer electronics, and personal computers.",
+      "requirements": [
+        "Knowledge of cybersecurity principles and tools",
+        "Experience in penetration testing and security analysis",
+        "Strong analytical and problem-solving skills",
+        "Passion for securing digital assets"
+      ],
+      "responsibilities": [
+        "Conduct cybersecurity assessments and penetration tests",
+        "Analyze and mitigate security vulnerabilities",
+        "Collaborate with security experts on risk management"
+      ],
+      "createdAt": "2023-09-25T13:10:45.003Z",
+      "updatedAt": "2023-09-25T17:30:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1200,
+        "upperBound": 3200
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d580",
+      "company": "Adobe India",
+      "title": "Content Writer Intern",
+      "category": "Content Writing",
+      "duration": "2",
+      "experience": "Beginner",
+      "location": "Delhi",
+      "posted": "2023-07-05",
+      "endsIn": "2023-08-05",
+      "openPositions": "5",
+      "applicants": 7,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": true,
+      "pic": "https://shorturl.at/kDEHZ",
+      "skills": ["SEO", "ContentWriting"],
+      "aboutUs": "Adobe is a global leader in software for creative and marketing solutions. We empower creativity for individuals and organizations.",
+      "requirements": [
+        "Strong writing and editing skills",
+        "Familiarity with SEO best practices",
+        "Excellent attention to detail",
+        "Passion for creating high-quality content"
+      ],
+      "responsibilities": [
+        "Write and edit engaging and SEO-friendly content",
+        "Contribute to content strategy and planning",
+        "Collaborate with the marketing team on content projects"
+      ],
+      "createdAt": "2023-12-10T11:45:30.003Z",
+      "updatedAt": "2023-12-10T14:55:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1000,
+        "upperBound": 4000
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d573",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Software Developer Intern",
+      "category": "Software",
+      "duration": "1",
+      "experience": "Internmediate",
+      "location": "Noida",
+      "posted": "2023-06-10",
+      "endsIn": "2023-07-10",
+      "openPositions": "5",
+      "applicants": 6,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "ReactJs",
+        "AngularJs"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:45:58.003Z",
+      "updatedAt": "2023-06-25T11:38:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1500,
+        "upperBound": 3500
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d579",
+      "company": "Facebook India",
+      "title": "UX Designer Intern",
+      "category": "Design",
+      "duration": "3",
+      "experience": "Intermediate",
+      "location": "Mumbai",
+      "posted": "2023-04-15",
+      "endsIn": "2023-06-15",
+      "openPositions": "4",
+      "applicants": 5,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://shorturl.at/lnQS8",
+      "skills": ["UI/UX", "Prototyping", "R&D"],
+      "aboutUs": "Facebook is a social media platform that connects people and businesses worldwide. We're dedicated to providing the best user experience for billions of users.",
+      "requirements": [
+        "Proficiency in UI/UX design principles",
+        "Experience with design tools and prototyping",
+        "Strong user research skills",
+        "Passion for creating outstanding user experiences"
+      ],
+      "responsibilities": [
+        "Design and prototype user interfaces",
+        "Conduct user research to inform design decisions",
+        "Collaborate with cross-functional teams on design projects"
+      ],
+      "createdAt": "2023-11-20T10:30:00.003Z",
+      "updatedAt": "2023-11-20T15:15:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 5000,
+        "upperBound": 9000
+      },
+      "_id": "6497e355ad2b4c77e9c3d46a",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Marketing Intern",
+      "category": "Marketing",
+      "duration": "2",
+      "experience": "Internmediate",
+      "location": "Remote",
+      "posted": "2023-06-11",
+      "endsIn": "2023-07-11",
+      "openPositions": "6",
+      "applicants": 20,
+      "isFullTime": true,
+      "isInOffice": false,
+      "isBookmarked": true,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "NodeJs",
+        "ExpressJs",
+        "ReactJs",
+        "MongoDB"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:48:53.246Z",
+      "updatedAt": "2023-06-25T15:33:03.403Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1300,
+        "upperBound": 3400
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d574",
+      "company": "Google India",
+      "title": "Data Science Intern",
+      "category": "Data Science",
+      "duration": "3",
+      "experience": "Intermediate",
+      "location": "Bengaluru",
+      "posted": "2023-10-04",
+      "endsIn": "2023-11-01",
+      "openPositions": "3",
+      "applicants": 6,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://rb.gy/6y60t",
+      "skills": [
+        "Python",
+        "ML",
+        "DataAnalysis"
+      ],
+      "aboutUs": "Google is a global technology leader focused on improving the ways people connect with information. We bring questions and answers to billions of people daily.",
+      "requirements": [
+        "Proficiency in Python, machine learning, and data analysis",
+        "Strong analytical and problem-solving skills",
+        "Ability to work with large datasets",
+        "Passion for data science and analytics"
+      ],
+      "responsibilities": [
+        "Analyze data and extract valuable insights",
+        "Develop machine learning models for data prediction",
+        "Contribute to data-driven decision-making processes"
+      ],
+      "createdAt": "2023-10-15T08:00:00.003Z",
+      "updatedAt": "2023-10-15T12:30:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1200,
+        "upperBound": 3500
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d570",
+      "company": "Wipro Technologies",
+      "title": "Backend Developer Intern",
+      "category": "Software",
+      "duration": "2",
+      "experience": "Intermediate",
+      "location": "Mumbai",
+      "posted": "2023-08-05",
+      "endsIn": "2023-09-05",
+      "openPositions": "4",
+      "applicants": 5,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://rb.gy/z9cae",
+      "skills": [
+        "Java",
+        "Python",
+        "SQL"
+      ],
+      "aboutUs": "Wipro Technologies is a leading global IT services company offering a wide range of solutions for business transformation.",
+      "requirements": [
+        "Proficiency in Java, Python, and SQL",
+        "Strong problem-solving skills and attention to detail",
+        "Ability to work collaboratively in a team",
+        "Passion for backend development"
+      ],
+      "responsibilities": [
+        "Develop and maintain backend applications",
+        "Implement database solutions and optimize performance",
+        "Collaborate with software engineers to integrate front-end elements"
+      ],
+      "createdAt": "2023-08-10T10:15:20.003Z",
+      "updatedAt": "2023-08-10T14:30:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 10000,
+        "upperBound": 19000
+      },
+      "_id": "6497e3d1ad2b4c77e9c3d46c",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Sales Intern",
+      "category": "Sales",
+      "duration": "3",
+      "experience": "Internmediate",
+      "location": "Remote",
+      "posted": "2023-06-09",
+      "endsIn": "2023-07-09",
+      "openPositions": "7",
+      "applicants": 40,
+      "isFullTime": true,
+      "isInOffice": false,
+      "isBookmarked": true,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "NodeJs",
+        "ExpressJs",
+        "ReactJs",
+        "MongoDB",
+        "Vue",
+        "Tailwind"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:50:57.788Z",
+      "updatedAt": "2023-07-19T09:49:15.797Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 20000,
+        "upperBound": 30000
+      },
+      "_id": "6497e4b1ad2b4c77e9c3d46e",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "HR Intern",
+      "category": "HR",
+      "duration": "4",
+      "experience": "Internmediate",
+      "location": "Mumbai",
+      "posted": "2023-06-08",
+      "endsIn": "2023-07-08",
+      "openPositions": "8",
+      "applicants": 90,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "Python",
+        "Django",
+        "ReactJs",
+        "MongoDB",
+        "Tailwind"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:54:41.928Z",
+      "updatedAt": "2023-10-25T11:37:39.081Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 30000,
+        "upperBound": 39000
+      },
+      "_id": "6497e53aad2b4c77e9c3d470",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Graphic Designer Intern",
+      "category": "Graphic Design",
+      "duration": "5",
+      "experience": "Internmediate",
+      "location": "Remote",
+      "posted": "2023-06-07",
+      "endsIn": "2023-07-07",
+      "openPositions": "8",
+      "applicants": 200,
+      "isFullTime": false,
+      "isInOffice": false,
+      "isBookmarked": true,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "Photoshop",
+        "AfterEffects",
+        "Canva"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:56:58.310Z",
+      "updatedAt": "2023-10-03T16:57:30.834Z",
+      "__v": 0
+    },
+
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1500,
+        "upperBound": 4500
+      },
+      "_id": "6497e595ad2b4c77e9c3d472",
+      "company": "Infosys Limited",
+      "title": "Front-End Developer Intern",
+      "category": "Software",
+      "duration": "3",
+      "experience": "Intermediate",
+      "location": "Delhi",
+      "posted": "2023-07-15",
+      "endsIn": "2023-08-15",
+      "openPositions": "3",
+      "applicants": 7,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://shorturl.at/eoKQY",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "aboutUs": "We are a global IT consulting company providing cutting-edge technology solutions to businesses worldwide.",
+      "requirements": [
+        "Strong knowledge of HTML, CSS, and JavaScript",
+        "Team player with excellent communication skills",
+        "Eager to learn and adapt to new technologies",
+        "Passionate about front-end development"
+      ],
+      "responsibilities": [
+        "Design and implement user-friendly web interfaces",
+        "Collaborate with cross-functional teams on project development",
+        "Optimize website performance for a superior user experience"
+      ],
+      "createdAt": "2023-07-20T08:30:45.003Z",
+      "updatedAt": "2023-07-20T12:45:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 40000,
+        "upperBound": 50000
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d469",
+      "company": "Tata Consultancy Services Pvt Ltd",
+      "title": "Software Developer Intern",
+      "category": "Software",
+      "duration": "6",
+      "experience": "Internmediate",
+      "location": "Pune",
+      "posted": "2023-06-06",
+      "endsIn": "2023-07-06",
+      "openPositions": "9",
+      "applicants": 350,
+      "isFullTime": true,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "aboutUs": "We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.",
+      "requirements": [
+        "Someone who can work in a fast-paced startup environment",
+        "Good understanding of ReactJs, HTML, SCSS (styling is important), Javascript",
+        "Good communication is a must-have for this role",
+        "Hardworking & Curious to learn/implement new things is what I prefer personally"
+      ],
+      "responsibilities": [
+        "Write clean, manageable code and follow standard coding practices",
+        "Write quality code with a clean UI/UX view",
+        "Work with the tech & non-tech teams to create a meaningful product for users",
+        "Capable to build a feature, testing, and deploying a feature on the production server"
+      ],
+      "createdAt": "2023-06-25T06:58:29.548Z",
+      "updatedAt": "2023-08-02T16:52:30.471Z",
+      "__v": 0
+    },
+   
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1600,
+        "upperBound": 3800
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d571",
+      "company": "IBM India Pvt Ltd",
+      "title": "Machine Learning Intern",
+      "category": "AI/ML",
+      "duration": "3",
+      "experience": "Intermediate",
+      "location": "Bengaluru",
+      "posted": "2023-08-20",
+      "endsIn": "2023-09-20",
+      "openPositions": "2",
+      "applicants": 8,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://shorturl.at/otwQT",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "DeepLearning"
+      ],
+      "aboutUs": "IBM is a global technology and innovation company that stands for progress. We're dedicated to every client's success, every innovation, and every breakthrough.",
+      "requirements": [
+        "Proficiency in Python and machine learning frameworks",
+        "Strong understanding of deep learning concepts",
+        "Excellent problem-solving skills",
+        "Passion for AI and machine learning"
+      ],
+      "responsibilities": [
+        "Develop and implement machine learning models",
+        "Collaborate with data scientists on cutting-edge projects",
+        "Contribute to the advancement of AI technology"
+      ],
+      "createdAt": "2023-08-25T09:20:15.003Z",
+      "updatedAt": "2023-08-25T13:40:03.800Z",
+      "__v": 0
+    },
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1100,
+        "upperBound": 3200
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d372",
+      "company": "Amazon Web Services",
+      "title": "Cloud Solutions Intern",
+      "category": "Cloud Computing",
+      "duration": "4",
+      "experience": "Intermediate",
+      "location": "Delhi",
+      "posted": "2023-09-05",
+      "endsIn": "2023-10-05",
+      "openPositions": "5",
+      "applicants": 6,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://shorturl.at/alzN8",
+      "skills": [
+        "AWS",
+        "Docker",
+        "DevOps"
+      ],
+      "aboutUs": "Amazon Web Services (AWS) is the world's most comprehensive and broadly adopted cloud platform, offering over 200 fully featured services from data centers globally.",
+      "requirements": [
+        "Familiarity with AWS services and infrastructure",
+        "Understanding of DevOps principles and containerization",
+        "Strong problem-solving and troubleshooting abilities",
+        "Passion for cloud computing"
+      ],
+      "responsibilities": [
+        "Design and implement cloud solutions for clients",
+        "Collaborate with cloud architects to optimize AWS infrastructure",
+        "Troubleshoot and resolve cloud-related issues"
+      ],
+      "createdAt": "2023-09-10T11:55:30.003Z",
+      "updatedAt": "2023-09-10T15:20:03.800Z",
+      "__v": 0
+    },
+   
+  
+ 
+    {
+      "stipend": {
+        "isPaid": true,
+        "lowerBound": 1400,
+        "upperBound": 3600
+      },
+      "_id": "6497e2a5ad2b4c77e9c3d581",
+      "company": "Tesla India",
+      "title": "Electrical Engineer Intern",
+      "category": "Engineering",
+      "duration": "6",
+      "experience": "Intermediate",
+      "location": "Bengaluru",
+      "posted": "2023-01-05",
+      "endsIn": "2023-02-05",
+      "openPositions": "3",
+      "applicants": 6,
+      "isFullTime": false,
+      "isInOffice": true,
+      "isBookmarked": false,
+      "pic": "https://shorturl.at/ALM27",
+      "skills": ["Testing", "CircuitDesign"],
+      "aboutUs": "Tesla is a sustainable energy and automotive company. We're dedicated to accelerating the world's transition to sustainable energy.",
+      "requirements": [
+        "Knowledge of electrical engineering principles",
+        "Experience in circuit design and testing",
+        "Strong problem-solving skills",
+        "Passion for clean energy solutions"
+      ],
+      "responsibilities": [
+        "Design and test electrical circuits and systems",
+        "Collaborate with engineers on innovative projects",
+        "Contribute to the development of sustainable energy solutions"
+      ],
+      "createdAt": "2024-01-10T09:20:00.003Z",
+      "updatedAt": "2024-01-10T12:40:03.800Z",
+      "__v": 0
+    }
+    
+    
+    
+  ]
+}
