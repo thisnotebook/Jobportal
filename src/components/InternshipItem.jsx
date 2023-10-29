@@ -51,7 +51,7 @@ return (
         
             <div  className="bg-[#ffffff] my-2 rounded-md"
            >
-                <div className="flex py-2 px-2" >
+                <div className="flex py-2 px-2  " >
                     <div>
                         <div className="font-bold">
                             {internship.title}
@@ -78,16 +78,16 @@ return (
                         />
                     </div>
                     <div className="flex items-center text-sm font-medium">
-                        <div className={`rounded-l-full bg-[#edf2f4] px-2 py-1 border-r-2 ${internship.skills.length===1 && "rounded-r-full"}  overflow-hidden`}>
+                        <div className={`rounded-l-full text-[#ffffff] bg-[#186F65] px-2 py-1 border-r-2 ${internship.skills.length===1 && "rounded-r-full"}  overflow-hidden`}>
                             {internship.skills[0]}
                         </div>
-                        {internship.skills[1] && <div className={`bg-[#edf2f4] px-2 py-1 border-r-2 ${internship.skills.length===2 && "rounded-r-full"}  overflow-hidden`}>
+                        {internship.skills[1] && <div className={`text-[#ffffff] bg-[#186F65] px-2 py-1 border-r-2 ${internship.skills.length===2 && "rounded-r-full"}  overflow-hidden`}>
                             {internship.skills[1]}
                         </div>}
-                        {internship.skills[2] && <div className={`bg-[#edf2f4] px-2 py-1 border-r-2 ${internship.skills.length===3 && "rounded-r-full"}  overflow-hidden`}>
+                        {internship.skills[2] && <div className={`text-[#ffffff] bg-[#186F65] px-2 py-1 border-r-2 ${internship.skills.length===3 && "rounded-r-full"}  overflow-hidden`}>
                             {internship.skills[2]}
                         </div>}
-                        {internship.skills.length >3 && <div className="rounded-r-full bg-[#edf2f4] px-2 py-1"> +{internship.skills.length-3}</div>}
+                        {internship.skills.length >3 && <div className="rounded-r-full text-[#ffffff] bg-[#186F65] px-2 py-1"> +{internship.skills.length-3}</div>}
                     </div>
                 </div>
                 <div className="flex py-2 px-2 text-sm items-center">

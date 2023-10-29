@@ -170,10 +170,10 @@ export default function BrowseListings() {
       //for local host by fake api
       // write 'npm run server ' in different terminal - go to browser and type http://localhost:9000/jobs
       // to use this uncomment this
-      const getIntern = await fetch("http://localhost:9000/jobs");
+      const getIntern = await fetch("https://backapi-production-9953.up.railway.app/jobs");
      const res = await getIntern.json();
 
-   //  const  res = detail;
+  //const  res = detail;
 
       let internData = res;
       console.log(internData);
@@ -301,13 +301,16 @@ export default function BrowseListings() {
       }
       if (activeTab === "newest") {
         internData.sort((a, b) => new Date(b.posted) - new Date(a.posted));
+        //setInternships(internData);
       } else if (activeTab === "popular") {
         internData.sort((a, b) => b.applicants - a.applicants);
+        //setInternships(internData);
       } else {
         internData = internData.filter(
           (intern) => intern.isBookmarked === true
         );
         internData.sort((a, b) => b.applicants - a.applicants);
+       // setInternships(internData);
       }
       setInternships(internData);
     } catch (err) {
