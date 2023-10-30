@@ -29,7 +29,7 @@ const DropdownMenu = ({ title, options, onSelect }) => {
         className="flex items-center justify-between cursor-pointer"
         onClick={toggleDropdown}
       >
-        <div className="font-bold flex px-1 py-1 overflow-auto border rounded-md">
+        <div className="font-bold flex px-1 py-1 overflow-auto border rounded-md bg-[#186F65}">
           {selectedItems?.map((item) => (
             <div
               key={item}
@@ -58,7 +58,7 @@ const DropdownMenu = ({ title, options, onSelect }) => {
           style={{
             color: "#186F65",
             marginRight: "1em",
-            height: "1em",
+            height: "1.5em",
             width: "1em",
           }}
         />
@@ -100,6 +100,7 @@ export default function BrowseListings() {
   const [selectedStipend, setSelectedStipend] = useState([]);
   const [selectedApplicants, setSelectedApplicants] = useState([]);
   const [applyFilters, setApplyFilters] = useState(false);
+
 
   const categories = [
     "Marketing",
@@ -381,6 +382,7 @@ export default function BrowseListings() {
     setApplyFilters(true);
     fetchInternships();
     setShowFilterBox(!showFilterBox);
+
     //the last line is ---+---
   };
 
@@ -390,7 +392,7 @@ export default function BrowseListings() {
         <div className="w-1/4 mr-2  rounded-md">
           <div className="flex justify-between bg-[#FFFFFF] items-center h-12 px-1 mb-6 rounded-md">
             <button
-              className={`rounded-md text-base w-1/3 py-2 font-medium ${
+              className={`rounded-md text-base w-1/2 py-2 font-medium ${
                 activeTab === "popular" ? "text-[#FFFFFF]" : "text-[#186F65]"
               }
                             ${
@@ -403,7 +405,7 @@ export default function BrowseListings() {
               Popular
             </button>
             <button
-              className={`text-base rounded-md w-1/3 py-2 font-medium ${
+              className={`text-base rounded-md w-1/2 py-2 font-medium ${
                 activeTab === "newest" ? "text-[#FFFFFF]" : "text-[#186F65]"
               }
                             ${
@@ -415,7 +417,7 @@ export default function BrowseListings() {
             >
               Newest
             </button>
-            <button
+            {/* <button
               className={`text-base rounded-md w-1/3 py-2 font-medium ${
                 activeTab === "bookmark" ? "text-[#FFFFFF]" : "text-[#186F65]"
               }
@@ -427,7 +429,7 @@ export default function BrowseListings() {
               onClick={() => handleTabClick("bookmark")}
             >
               Bookmark
-            </button>
+            </button> */}
           </div>
           <div className="max-h-[calc(100vh-200px)] overflow-y-auto rounded-md cursor-pointer">
             {internships?.map((internship) => (
@@ -501,7 +503,7 @@ export default function BrowseListings() {
           </div>
           <div className="flex px-4 my-2">
             <div className="w-1/2 text-sm pr-1">
-              <div className="font-bold py-1">Category</div>
+              <div className=" px-3 font-bold py-1 bg-[#186F65] text-[#ffffff] rounded-lg" >Category</div>
               <div>
                 <DropdownMenu
                   title="Category"
@@ -511,7 +513,7 @@ export default function BrowseListings() {
               </div>
             </div>
             <div className="w-1/2 text-sm pl-1">
-              <div className="font-bold py-1">Skills</div>
+              <div className="font-bold py-1  bg-[#186F65] text-[#ffffff] rounded-lg px-3">Skills</div>
               <div>
                 <DropdownMenu
                   title="Skills"
@@ -523,7 +525,7 @@ export default function BrowseListings() {
           </div>
           <div className="flex px-4 my-2">
             <div className="w-1/2 text-sm pr-1">
-              <div className="font-bold py-1">Timings</div>
+              <div className="font-bold py-1   bg-[#186F65] text-[#ffffff] rounded-lg px-3">Timings</div>
               <div>
                 <div
                   className="items-center my-4 flex"
@@ -592,7 +594,7 @@ export default function BrowseListings() {
               </div>
             </div>
             <div className="w-1/2 text-sm pl-1">
-              <div className="font-bold py-1">Type</div>
+              <div className="font-bold py-1  bg-[#186F65] text-[#ffffff] rounded-lg px-3">Type</div>
               <div>
                 <div
                   className="items-center my-4"
@@ -661,8 +663,8 @@ export default function BrowseListings() {
           </div>
           <div className="flex px-4 my-2">
             <div className="w-1/2 text-sm pr-1">
-              <div className="font-bold py-1">Duration (Months)</div>
-              <div className="pb-4 w-5/6">
+              <div className="font-bold py-1  bg-[#186F65] text-[#ffffff] rounded-lg pl-3">Duration (Months)</div>
+              <div className="pb-4 w-5/6 ml-2 mt-2">
                 <Slider
                   range
                   min={0}
@@ -676,7 +678,7 @@ export default function BrowseListings() {
               </div>
             </div>
             <div className="w-1/2 text-sm pl-1 pb-4">
-              <div className="font-bold py-1">Location</div>
+              <div className="font-bold py-1  bg-[#186F65] text-[#ffffff] rounded-lg px-3">Location</div>
               <div>
                 <DropdownMenu
                   title="Skills"
@@ -688,8 +690,8 @@ export default function BrowseListings() {
           </div>
           <div className="flex px-4 my-2 mb-8">
             <div className="w-1/2 text-sm pr-1 ">
-              <div className="font-bold py-1">Stipend</div>
-              <div className="pb-4 w-5/6">
+              <div className="font-bold py-1  bg-[#186F65] text-[#ffffff] rounded-lg px-3">Stipend</div>
+              <div className="pb-4 w-5/6 ml-2 mt-2">
                 <Slider
                   range
                   min={0}
@@ -703,8 +705,8 @@ export default function BrowseListings() {
               </div>
             </div>
             <div className="w-1/2 text-sm pr-1 ">
-              <div className="font-bold py-1">Applicants</div>
-              <div className="pb-4 w-5/6">
+              <div className="font-bold py-1  bg-[#186F65] text-[#ffffff] rounded-lg px-3">Applicants</div>
+              <div className="pb-4 w-5/6 ml-2 mt-2">
                 <Slider
                   range
                   min={0}

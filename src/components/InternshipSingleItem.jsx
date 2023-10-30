@@ -1,3 +1,5 @@
+    
+     import { useState } from "react";
     import {
         faCalendarDays,
         faCalendarXmark,
@@ -9,8 +11,7 @@
     import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
     const InternshipSingleItem = ({internship}) => {
-
-
+        
         const date1 = new Date();
         const date2 = new Date(internship.endsIn);
         const date3 = new Date(internship.posted);
@@ -183,7 +184,9 @@
                             </a>
                         </div>
                         <div>
-                            <button className="py-2 px-4 bg-[#186F65] rounded-full text-[#FFFFFF] font-bold text-xl">Apply Now</button>
+                            <button  className="py-2 px-4 bg-[#186F65] rounded-full text-[#FFFFFF] font-bold text-xl">
+                               Apply Now
+                                </button>
                         </div>
                     </div>
                 </div>
