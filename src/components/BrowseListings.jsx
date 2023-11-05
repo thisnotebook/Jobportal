@@ -339,6 +339,12 @@ export default function BrowseListings() {
   const handleFilterClick = () => {
     setShowFilterBox(!showFilterBox);
   };
+  const handleFilterClickClose = () => {
+    setShowFilterBox(!showFilterBox);
+    setApplyFilters(true);
+    fetchInternships();
+    setShowFilterBox(!showFilterBox);
+  }
 
   const handleSliderChange1 = (value) => {
     const valueUpdated = [parseInt(value[0]), parseInt(value[1])];
@@ -454,6 +460,7 @@ export default function BrowseListings() {
         </div>
 
         <div className="w-3/4 ml-2 rounded-md">
+          {/* search bar and filter btn */}
           <div className="flex justify-between rounded-l-md items-center h-12 bg-[#FFFFFF] mb-6">
             <div className="w-10/12 rounded-l-md">
               <input
@@ -490,11 +497,14 @@ export default function BrowseListings() {
         </div>
       </div>
 
+      {/* opne filter section  */}
+ 
       {showFilterBox && (
         <div className="fixed top-40 left-2/3 w-1/3 bg-white border rounded-tl-3xl z-50">
           <div className="p-4 flex">
             <div className="mx-auto text-[#186F65] font-bold">Filters</div>
-            <div onClick={handleFilterClick} className="cursor-pointer">
+            <div onClick={handleFilterClickClose} className="cursor-pointer">
+              {/* or use handleFilterClick instead */}
               <FontAwesomeIcon
                 icon={faSquareXmark}
                 style={{ color: "#186F65", height: 20, width: 20 }}
